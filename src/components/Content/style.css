@@ -1,0 +1,8 @@
+.content {
+    position: fixed;
+    /* padding-left: 150px; */
+    left: 150px;
+    margin: 0 130px;
+    overflow: auto;
+    height: 100vh;
+}
