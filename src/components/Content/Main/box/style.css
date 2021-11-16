@@ -1,27 +1,12 @@
-.box {
-    padding-right: 50px;
-}
-
-.box:last-child {
-    padding-right: 0;
-}
-
-.box .box_title {
-  font-size: 24px;
-  list-style: 28.13px;
-  font-weight: 700;
-}
-
-.box-content {
+.contain-box{
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
-
-/* #floated {
-  float: left;
-  width: 150px ;
-} */
-
-#floated_1, #floated_2, #floated_3{
-    float: left;
-    width: 150px;
+.box{
+  width: 30%;
+}
+.box-img{
+  width: 100px;
 }
