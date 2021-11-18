@@ -49,9 +49,10 @@ const Box = () => {
      {box_arr.map(box => {
        return (
          <div key={box.id} className="box">
+           <h3>{box.title}</h3>
+            <img src={box.image} className="box-img"></img>
            <p>
-             <img src={box.image} className="box-img"></img>
-             {box.text_}
+              {box.text_}
            </p>
          </div>
        )

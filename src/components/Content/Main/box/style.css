@@ -1,4 +1,5 @@
 .contain-box{
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -7,6 +8,24 @@
 .box{
   width: 30%;
 }
+.box:last-child{
+  margin-right: -60px;
+}
+.box:first-child{
+  margin-left: -60px;
+}
+.last-box{
+  margin-right: 0;
+}
 .box-img{
   width: 100px;
+  display: inline-block;
+}
+img {
+  float: left; 
+  margin: 5px;
+}
+p {
+  text-align: justify;
+  font-size: 16px;
 }
