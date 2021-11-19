@@ -1,19 +1,20 @@
 .contain-box{
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
 }
 .box{
-  width: 30%;
+  width: 100%;
 }
 .box:last-child{
-  margin-right: -60px;
+  margin-right: 0px;
 }
 .box:first-child{
-  margin-left: -60px;
+  margin-left: 0px;
 }
+
 .last-box{
   margin-right: 0;
 }
@@ -28,4 +29,23 @@ img {
 p {
   text-align: justify;
   font-size: 16px;
+}
+
+@media only screen and (min-width: 1240px){
+  .contain-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .box{
+    width: 30%;
+  }
+  .box:last-child{
+    margin-right: -60px;
+  }
+  .box:first-child{
+    margin-left: -60px;
+  }
 }
